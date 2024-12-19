@@ -1,0 +1,63 @@
+header{
+    padding: 30px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image{
+    width: 100vh;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+
+
+    padding: 40px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.instructions {
+    margin-bottom: 40px;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.instructions h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.cta {
+    margin-top: 20px;
+}
+
+.open-tracker-btn {
+    padding: 15px 30px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.open-tracker-btn:hover {
+    background-color: #45a049;
+}
